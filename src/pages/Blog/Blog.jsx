@@ -17,7 +17,7 @@ export default function Blog() {
         <div className={`${style.blog}`}>
           <div className={`${style.blog_box_one}`}>
             <div className={`${style.blog_box_img}`}>
-              <img src={img_1} alt="" />
+              <img src={"img_1"} alt="" />
             </div>
             <div className={`${style.blog_box_text}`}>
               <h2>8 Inspiring Ways to Wear Dresses in the Winter</h2>
@@ -53,7 +53,7 @@ export default function Blog() {
         <div className={`${style.blog}`}>
           <div className={`${style.blog_box_one}`}>
             <div className={`${style.blog_box_img}`}>
-              <img src={img_2} alt="" />
+              <img src={"img_2"} alt="" />
             </div>
             <div className={`${style.blog_box_text} `}>
               <h2>The Great Big List of Men Gifts for the Holidays</h2>
@@ -90,7 +90,7 @@ export default function Blog() {
         <div className={`${style.blog}`}>
           <div className={`${style.blog_box_one}`}>
             <div className={` ${style.blog_box_img}`}>
-              <img src={img_6} alt="" />
+              <img src={"img_6"} alt="" />
             </div>
             <div className={`${style.blog_box_text}`}>
               <h2>5 Winter-to-Spring Fashion Trends to Try Now</h2>

@@ -71,7 +71,7 @@ export default function StickyNav() {
         <nav className="navbar navbar-expand-lg my-3">
           <div className="container">
             <a className="navbar-brand" href="#">
-              <img src={logo} alt="" />
+              <img src={"logo"} alt="" />
             </a>
             <button
               className="navbar-toggler"

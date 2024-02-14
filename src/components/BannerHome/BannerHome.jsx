@@ -10,7 +10,7 @@ export default function BannerHome() {
         <div className="row">
           <div className="col-6 col-md-6 col-lg-3 mb-2">
             <div className={`${style.card_hover} position-relative`}>
-              <img src={img_banner_1} className="w-100" alt="" />
+              <img src={"img_banner_1"} className="w-100" alt="" />
               <div className="position-absolute top-0 start-0 w-100 h-100 p-5 text-white">
                 <h6>Weekend Sale</h6>
                 <div>
@@ -25,7 +25,7 @@ export default function BannerHome() {
 
           <div className="col-6 col-md-6 col-lg-3  mb-2">
             <div className={`${style.card_hover} position-relative`}>
-              <img src={img_banner_3} className="w-100" alt="" />
+              <img src={"img_banner_3"} className="w-100" alt="" />
               <div className="position-absolute top-0 start-0 w-100 h-100 p-5 text-white">
                 <h6>Smart Offer</h6>
                 <div>
@@ -39,7 +39,7 @@ export default function BannerHome() {
           </div>
           <div className="col-12 col-lg-6 mb-2">
             <div className={`${style.card_hover} position-relative`}>
-              <img src={img_banner_2} className="w-100" alt="" />
+              <img src={"img_banner_2"} className="w-100" alt="" />
               <div className="position-absolute top-0 start-0 w-100 h-100 p-5 text-white">
                 <h6>Amazing Value</h6>
                 <div>

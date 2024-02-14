@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="container">
         <div className="row mt-5">
           <div className="col-12 col-md-6 col-lg-3 mb-2">
-            <img src={logo} alt="" />
+            <img src={"logo"} alt="" />
             <p className="py-3">
               Praesent dapibus, neque id cursus ucibus, tortor neque egestas
               augue, eu vulputate magna eros eu erat.

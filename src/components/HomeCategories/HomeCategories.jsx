@@ -26,32 +26,32 @@ export default function HomeCategories() {
           </div>
           <div className="col-6 col-md-4 col-lg-2">
             <div className={`${style.cart_item} text-center`}>
-              <img src={image2} alt="Lighting" style={{ height: "117px" }} />
+              <img src={"image2"} alt="Lighting" style={{ height: "117px" }} />
               <h6  className="mt-1">Lighting</h6>
             </div>
           </div>
           <div className="col-6 col-md-4 col-lg-2">
             <div className={`${style.cart_item} text-center`}>
-              <img src={image3} alt="Lighting" style={{ height: "117px" }} />
+              <img src={"image3"} alt="Lighting" style={{ height: "117px" }} />
               <h6  className="mt-1">Smart Phones</h6>
             </div>
           </div>
           <div className="col-6 col-md-4 col-lg-2">
             <div className={`${style.cart_item} text-center`}>
-              <img src={image4} alt="Lighting" style={{ height: "117px" }} />
+              <img src={"image4"} alt="Lighting" style={{ height: "117px" }} />
               <h6  className="mt-1">Televisions</h6>
             </div>
           </div>
           <div className="col-6 col-md-4 col-lg-2">
             <div className={`${style.cart_item} text-center`}>
-              <img src={image5} alt="Lighting" style={{ height: "117px" }} />
+              <img src={"image5"} alt="Lighting" style={{ height: "117px" }} />
               <h6  className="mt-1">Cooking</h6>
             </div>
           </div>
           <div className="col-6 col-md-4 col-lg-2">
             <div className={`${style.cart_item} text-center`}>
               <div className="text-center">
-                <img src={image6} alt="Lighting" style={{ height: "117px" }} />
+                <img src={"image6"} alt="Lighting" style={{ height: "117px" }} />
                 <h6  className="mt-1">Furniture</h6>
               </div>
             </div>

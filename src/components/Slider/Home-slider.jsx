@@ -21,7 +21,7 @@ export default function HomeSlider() {
     <div>
       <Slider  {...settings} className="text-text-center">
         <div className="position-relative">
-          <img src={slider1} alt="Slider 1" />
+          <img src={"slider1"} alt="Slider 1" />
           <div
             className={`${style.start25} ${style.top25} position-absolute z-1`}
           >
@@ -43,7 +43,7 @@ export default function HomeSlider() {
           </div>
         </div>
         <div>
-          <img src={slider2} alt="Slider 2" />
+          <img src={"slider2"} alt="Slider 2" />
           <div
             className={`${style.start25} ${style.top25} position-absolute z-1`}
           >
@@ -67,7 +67,7 @@ export default function HomeSlider() {
           </div>
         </div>
         <div>
-          <img src={slider3} alt="Slider 3" />
+          <img src={"slider3"} alt="Slider 3" />
           <div
             className={`${style.start25} ${style.top25} position-absolute z-1`}
           >

@@ -15,7 +15,7 @@ export default function About() {
           <div className="row">
             <div className={`${style.about_img}`}>
               <div className={`${style.hov_img0}`}>
-                <img src={img_1} alt="IMG" />
+                <img src={"img_1"} alt="IMG" />
               </div>
             </div>
             <div className={`${style.about_title}`}>
@@ -106,7 +106,7 @@ export default function About() {
             </div>
             <div className={`${style.about_img}`}>
               <div className={`${style.hov_img0}`}>
-                <img src={img_1} alt="IMG" />
+                <img src={"img_1"} alt="IMG" />
               </div>
             </div>
           </div>
