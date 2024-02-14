@@ -8,7 +8,7 @@ import { LiaCcVisa } from "react-icons/lia";
 import { FaRegMoneyBillAlt } from "react-icons/fa";
 import { Blocks } from "react-loader-spinner";
 
-export default function Allovers() {
+export default function AllOrders() {
   const { token } = JSON.parse(localStorage.getItem("token"));
   const decode = jwtDecode(token);
   const dispatch = useDispatch();

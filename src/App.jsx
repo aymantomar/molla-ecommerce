@@ -17,7 +17,7 @@ import { Toaster } from "react-hot-toast";
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 import CartsShop from "./components/CartsShop/CartsShop";
 import CheckOut from "./components/CheckOut/CheckOut";
-import AllOrders from "./components/Allorders/Allovers";
+import AllOrders from "./components/AllOrders/Allovers";
 import CashPayment from "./components/CashPayment/CashPayment";
 import { useContext } from "react";
 import { ThemeContext } from "./context/DarkMoodContext";
