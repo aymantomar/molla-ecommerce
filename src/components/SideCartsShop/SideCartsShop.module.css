@@ -1,0 +1,27 @@
+.btn_style {
+  transition: all 0.5;
+  border: 1px solid var(--main-color) !important;
+}
+.btn_style:hover {
+  color: #fff;
+  background-color: var(--main-color);
+}
+.title {
+  font-size: 1.3rem;
+  padding-bottom: 1.7rem;
+  border-bottom: 0.1rem solid #cccccc;
+  color: var(--sab-bgColor);
+}
+.total_price {
+  display: flex;
+  justify-content: space-between;
+  color: var(--sab-bgColor);
+  margin: 30px 0;
+  font-size: 1.3rem;
+}
+.checkOut {
+  color: var(--main-color);
+}
+.checkOut:hover {
+  color: #fff;
+}

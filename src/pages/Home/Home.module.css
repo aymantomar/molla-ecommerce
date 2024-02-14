@@ -1,0 +1,12 @@
+.title {
+  color: var(--main-color) !important;
+}
+.imageHeight {
+  height: 120px;
+}
+
+.catName {
+  color: var(--category-color);
+  font-weight: 400;
+  font-size: 1rem;
+}

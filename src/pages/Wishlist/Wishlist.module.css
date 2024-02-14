@@ -1,0 +1,9 @@
+.removeBorder td,
+.removeBorder th {
+  border-bottom: 1px solid #dee2e6;
+  vertical-align: middle;
+}
+
+.image_cover{
+  width: 60px;
+}

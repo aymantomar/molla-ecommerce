@@ -1,0 +1,119 @@
+.bgHeader {
+  background-image: url("../../assets/images/banner.jpeg");
+  padding: 4.6rem 0 5rem;
+  background-size: cover;
+  background-position: center center;
+  color: var(--main-color);
+}
+
+.contact .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row .input_text {
+  border: 1px solid #e6e6e6;
+  width: 50%;
+  padding: 55px 70px 70px;
+}
+
+.row .input_text form input {
+  display: block;
+}
+
+.row .input_text h4 {
+  font-size: 24px;
+  line-height: 1.5;
+  color: var(--main-color);
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.row .input_text input {
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  line-height: 1.6923;
+  color: var(--main-color);
+  padding-left: 28px;
+  padding-right: 30px;
+}
+
+.row .input_text textarea {
+  width: 100%;
+  min-height: 199px;
+  font-size: 20px;
+  line-height: 1.6923;
+  color: var(--main-color);
+  padding: 25px 28px;
+  margin-bottom: 30px;
+}
+
+.row .input_text button {
+  width: 100%;
+  height: 46px;
+  /* border-radius: 23px; */
+  border: 1px solid var(--main-color);
+  background-color: transparent;
+  color: var(--main-color);
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.row .input_text button:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.row .details_text {
+  border: 1px solid #e6e6e6;
+  width: 50%;
+  padding: 55px 70px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row .details_text .details_text_spaa {
+  padding-bottom: 42px;
+}
+
+.details_text .details_text_spaa span h5 {
+  display: inline;
+  font-size: 18px;
+  line-height: 1.222222;
+  color: var(--dark-color);
+}
+
+.details_text .details_text_spaa p {
+  max-width: 300px;
+  font-size: 15px;
+  line-height: 1.666667;
+  color: var(--slider-color);
+  padding-top: 18px;
+  padding-left: 43px;
+}
+
+.details_text .details_text_spaa .p {
+  color: var(--slider-color);
+  cursor: pointer;
+}
+
+.map {
+  padding-top: 70px;
+}
+.map iframe {
+  width: 100%;
+}
+
+@media (max-width: 936px) {
+  .row .input_text {
+    width: 100%;
+  }
+  .row .details_text {
+    width: 100%;
+  }
+}

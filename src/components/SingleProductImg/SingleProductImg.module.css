@@ -1,0 +1,26 @@
+.all_images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  
+  /* height: 50%; */
+}
+.all_images img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin: 5px 0;
+    transition: all .5s;
+    overflow: hidden;
+}
+.all_images img:hover {
+    transform: scale(1.1);
+}
+.single_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.single_image img{
+    height: 457px;
+}

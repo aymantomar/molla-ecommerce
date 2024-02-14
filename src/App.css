@@ -1,0 +1,24 @@
+.title {
+  color: var(--main-color);
+}
+
+.dark_mood {
+  --main-color: #1a579f; /* Previously adjusted for dark mode */
+  --topNav-color: #242424; /* Darker grey for top navigation */
+  --section-color: #202020; /* Near-black for sections, offering depth */
+  --sab-bgColor: #2a2a2a; /* A slight variation to add depth between different UI elements */
+  --slider-color: #626262; /* Darker, ensuring sliders are discernible yet unobtrusive */
+  --category-color: #575757; /* Adjusted for better visibility against dark backgrounds */
+  --white-color: #e0e0e0; /* Soft white for text to reduce glare */
+  --dark-color: #ffffff; /* Bright white used sparingly for high contrast text or elements */
+  --sale-bgColor: #b96255; /* A darker, warmer tone for sale tags to make them stand out subtly */
+  --top-bgColor: #5a9ebc; /* A darker shade of blue for a soothing effect */
+  --new-bgColor: #809652; /* Muted green, harmonizing with the dark theme */
+  --catName-color: #9a9a9a;
+}
+
+.App,
+.card-body,
+.accordion {
+  background-color: var(--white-color) !important;
+}

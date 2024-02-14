@@ -1,0 +1,13 @@
+.card_hover {
+  transition: all 0.5s;
+  opacity: 1;
+  background-color: #000;
+}
+
+.card_hover:hover {
+  opacity: 0.5;
+}
+
+.img_cover {
+  height: 306px;
+}

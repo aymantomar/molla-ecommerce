@@ -1,0 +1,98 @@
+.card_slider {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card_item {
+  border-radius: 0;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  width:  95%!important;
+}
+
+.card_body {
+  padding: 1rem 1rem;
+}
+
+.card_body .card_title {
+  color: var(--slider-color);
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.3rem;
+}
+.card_text {
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--sab-bgColor);
+  margin-bottom: 0.2rem;
+  height: 45px;
+}
+.card_price {
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.25;
+  color: var(--main-color);
+  margin-bottom: 1.3rem;
+}
+
+.rating svg {
+  color: gold;
+}
+.product {
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.icon {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+.card_item .icon {
+  transition: transform 1s, opacity 1s;
+  transform: translateX(100%);
+  opacity: 0;
+}
+.card_item:hover .icon {
+  transition: transform 1s, opacity 1s;
+  transform: translateX(0%);
+  opacity: 1;
+}
+.addToCart {
+  transform: translateY(100%);
+}
+.card_item:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  transition: 0.8s;
+}
+.card_item .btn {
+  transition: 0.5s;
+  transform: translateY(100%);
+  opacity: 0;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  color: var(--main-color);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.card_item:hover .btn {
+  opacity: 1;
+  transform: translateY(0%);
+  z-index: 5;
+}
+.card_item .btn:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}

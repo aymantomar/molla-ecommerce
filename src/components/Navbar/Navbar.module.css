@@ -1,0 +1,8 @@
+.top_nav {
+  background-color: var(--topNav-color);
+  font-size: 0.875rem;
+  color: var(--slider-color);
+}
+a {
+  color: var(--slider-color);
+}

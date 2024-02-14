@@ -1,0 +1,40 @@
+.headerFixed{
+    position: fixed;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0px 3px 0px rgba(0,0,0,0.2);
+    background-color: var(--white-color);
+    top: -70px;
+    transform: translateY(70px);
+    transition: all 1s;
+    z-index: 100;
+}
+
+.showBtn{
+    position: fixed;
+    opacity: 0;
+    visibility: visible;
+    transition: all .5s;
+}
+
+.box {
+    position: fixed;
+    background-color: var(--main-color);
+    height: 50px;
+    width: 50px;
+    right: 31px;
+    bottom: 0px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+    z-index: 999;
+    transition: all .3s;
+}
+.box i{
+    color: var(--white-color);
+}
+.box:hover{
+    background-color: #0062ff;
+}

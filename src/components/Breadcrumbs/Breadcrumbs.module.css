@@ -1,0 +1,21 @@
+.bread_crumbs {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+.bread_crumbs > * {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.bread_crumbs .crumbs::after {
+  content: ">";
+  margin-left: 10px;
+}
+
+.bread_crumbs .crumbs:last-child::after {
+  display: none;
+}
+
+.bread_crumbs .crumbs a {
+  color: var(--sab-bgColor);
+}
